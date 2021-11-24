@@ -51,7 +51,7 @@ static void sdlWindowTest(void)
                 // int visible = SDL_ShowCursor(SDL_QUERY) == SDL_ENABLE;
                 visible = !visible;
                 printf("User pressed C -> Show cursor: %d\n", visible);
-                SDL_ShowCursor(visible ? SDL_DISABLE : SDL_ENABLE);
+                SDL_ShowCursor(visible ? SDL_ENABLE : SDL_DISABLE);
             }
             break;
         }
